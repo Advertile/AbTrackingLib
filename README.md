@@ -20,6 +20,15 @@ it, simply add the following line to your Podfile:
 pod "AbTrackingLib"
 ```
 
+In your AppDelegate, call in didFinishLaunchingWithOptions the following:
+```ruby
+NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
+NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
+[ABTracker trackOpenEventVersion:appVersion andBundle:bundleId];
+```
+
+In order to send your bundle ID and your App Version to abtrckr.com
+
 ## Author
 
 Laura Orán, laura.oran@navilo.es

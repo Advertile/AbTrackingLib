@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'AbTrackingLib', :exclusive => true do
+  pod "AbTrackingLib", :path => "../"
+
+  
+end

@@ -1,5 +1,5 @@
 PODS:
-  - AbTrackingLib (0.1.0)
+  - AbTrackingLib (0.5.0)
 
 DEPENDENCIES:
   - AbTrackingLib (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AbTrackingLib: 104ba809421021027ff29ff768def14934d23c57
+  AbTrackingLib: 485c0dbb6a9721ce6a76da53d1d57d4ec6939f20
 
 COCOAPODS: 0.37.0.beta.1

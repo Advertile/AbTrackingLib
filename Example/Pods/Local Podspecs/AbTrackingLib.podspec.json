@@ -1,6 +1,6 @@
 {
   "name": "AbTrackingLib",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "summary": "Library to track the open event to abtrckr.com",
   "description": "                       The library helps other projects to track the open app event to abtrckr.com\n",
   "homepage": "https://github.com/Advertile/AbTrackingLib",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/Advertile/AbTrackingLib.git",
-    "tag": "0.1.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "7.0"

@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        The library helps other projects to track the open app event to abtrckr.com
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/AbTrackingLib"
+  s.homepage         = "https://github.com/Advertile/AbTrackingLib"
   s.license          = 'MIT'
   s.author           = { "Laura Orán" => "laura.oran@navilo.es" }
   s.source           = { :git => "https://github.com/Advertile/AbTrackingLib.git", :tag => s.version.to_s }

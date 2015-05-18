@@ -72,7 +72,7 @@
          if(statusCode == 200) {
              NSLog(@"POST Event Success");
          } else {
-             NSLog(@"Error %d", statusCode);
+             NSLog(@"Error %ld", (long)statusCode);
          }
      }
                                     onFail:^(NSError *error, NSInteger statusCode)

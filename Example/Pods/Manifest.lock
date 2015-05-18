@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AbTrackingLib: 067762daa944505443fccbc56dad77f65d1b8aba
+  AbTrackingLib: 104ba809421021027ff29ff768def14934d23c57
 
 COCOAPODS: 0.37.0.beta.1

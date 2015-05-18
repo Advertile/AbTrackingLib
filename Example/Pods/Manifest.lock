@@ -1,0 +1,14 @@
+PODS:
+  - AbTrackingLib (0.1.0)
+
+DEPENDENCIES:
+  - AbTrackingLib (from `../`)
+
+EXTERNAL SOURCES:
+  AbTrackingLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AbTrackingLib: 067762daa944505443fccbc56dad77f65d1b8aba
+
+COCOAPODS: 0.37.0.beta.1

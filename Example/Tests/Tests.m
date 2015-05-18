@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <AbTrackingLib/ABTracker.h>
 
 @interface Tests : XCTestCase
 
@@ -26,9 +27,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testTrack
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
+    NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
+    [ABTracker trackOpenEventVersion:appVersion andBundle:bundleId];
 }
 
 @end

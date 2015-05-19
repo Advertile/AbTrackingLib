@@ -11,7 +11,7 @@
 #import "NSURLConnection+Blocks.h"
 #import <UIKit/UIKit.h>
 
-#define kBaseUrl @"https://abtracker.herokuapp.com/"
+#define kBaseUrl @"http://www.abtrckr.com/"
 
 @implementation ABTracker
 

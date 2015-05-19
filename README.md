@@ -26,12 +26,10 @@ To trigger the event, in your application delegate import the library:
 
 and add the following code in didFinishLaunchingWithOptions:
 ```
-NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
-NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
-[ABTracker trackOpenEventVersion:appVersion andBundle:bundleId];
+[ABTracker trackOpenEvent];
 ```
 
-To send your bundle ID and your App Version to abtrckr.com
+To track your event to abtrckr.com
 
 ## Author
 

@@ -57,7 +57,7 @@
     NSDictionary *events = [[NSDictionary alloc] initWithObjectsAndKeys:event, @"data", nil];
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:events options:kNilOptions error:nil];
     
-    NSString *urlString = [kBaseUrl stringByAppendingString:@"/api/events"];
+    NSString *urlString = [kBaseUrl stringByAppendingPathComponent:@"/api/events"];
     
     NSURL* url = [NSURL URLWithString:urlString];
     NSMutableURLRequest *configRequest = [NSMutableURLRequest requestWithURL:url

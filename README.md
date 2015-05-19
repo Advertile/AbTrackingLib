@@ -20,14 +20,19 @@ it, simply add the following line to your Podfile:
 pod "AbTrackingLib"
 ```
 
-In your AppDelegate, call in didFinishLaunchingWithOptions the following:
+To trigger the event, in your application delegate import the library:
+```ruby
+#import <AbTrackingLib/ABTracker.h>
+```
+
+and add the following code in didFinishLaunchingWithOptions:
 ```ruby
 NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
 NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
 [ABTracker trackOpenEventVersion:appVersion andBundle:bundleId];
 ```
 
-In order to send your bundle ID and your App Version to abtrckr.com
+To send your bundle ID and your App Version to abtrckr.com
 
 ## Author
 

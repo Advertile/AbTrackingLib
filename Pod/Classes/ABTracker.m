@@ -15,13 +15,15 @@
 
 @implementation ABTracker
 
-+ (void) trackOpenEventVersion:(NSString *) appVersion andBundle:(NSString *) bundleId
++ (void) trackOpenEvent
 {
     NSMutableDictionary *event = [[NSMutableDictionary alloc] init];
     [event setObject:@"open" forKey:@"name"];
+    NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
     if(bundleId) {
         [event setObject:bundleId forKey:@"bundle"];
     }
+    NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
     if(appVersion) {
         [event setObject:appVersion forKey:@"version"];
     }

@@ -10,6 +10,6 @@
 
 @interface ABTracker : NSObject
 
-+(void) trackOpenEventVersion:(NSString *) appVersion andBundle:(NSString *) bundleId;
++(void) trackOpenEvent;
 
 @end

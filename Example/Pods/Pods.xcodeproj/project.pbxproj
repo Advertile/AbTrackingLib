@@ -7,244 +7,261 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FF13359D8713F2341C06366 /* NSURLConnection+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C74645F45A6F6F388B65EADC /* NSURLConnection+Blocks.h */; };
-		5917BB09EE4533BEF454F407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB712070160B453F5F97CB77 /* Foundation.framework */; };
-		65135A24C6FB2C2CDF8435B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1BF334BB5A37DAD6E3402C /* UIKit.framework */; };
-		9528A858EED65A3B9DBEC8DD /* Pods-AbTrackingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E282D9ABEFDE716F0966C45B /* Pods-AbTrackingLib-dummy.m */; };
-		A688A262080B801EB432F9F4 /* ABTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7204C019DB6E359937FDB0 /* ABTracker.m */; };
-		A7B5CAA2A64420831459F169 /* Pods-AbTrackingLib-AbTrackingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6600D7C48967BC70153C1998 /* Pods-AbTrackingLib-AbTrackingLib-dummy.m */; };
-		AA2C1C2F8C72E926E935D994 /* NSURLConnection+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC9C498EEBD884897FA801 /* NSURLConnection+Blocks.m */; };
-		DB3851EC77F14E75799EC634 /* ABTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = AED154FF02839038CE70D038 /* ABTracker.h */; };
-		E70F028B888AE0697B72282C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB712070160B453F5F97CB77 /* Foundation.framework */; };
+		03797EA4F20DEBF4AE7C2DA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A6729B7A1051344814B2A8 /* UIKit.framework */; };
+		3F78A416EF67F4E7A2523CB6 /* ABTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A4DA06041E8153930D50D8 /* ABTracker.h */; };
+		51C1F65448869BF55A76FF03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05C83FAB91796E4A0980FFE /* Foundation.framework */; };
+		64DDC488AA9798166D1B8DDD /* Pods-AbTrackingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E7C70999B9C42B5A47B119 /* Pods-AbTrackingLib-dummy.m */; };
+		68BE3A1B7866DBD61B3BF322 /* NSURLConnection+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FA270191C90C0A49B71C62 /* NSURLConnection+Blocks.h */; };
+		6A31D63FEA2839206A3C1346 /* ABTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75509CF174599AE1ECBBBDD2 /* ABTracker.m */; };
+		75C6B8AF4A3E2C588BD722D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05C83FAB91796E4A0980FFE /* Foundation.framework */; };
+		BFE6807C93C81702B70A156D /* NSURLConnection+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3AF2263C0E4FC85795B0E /* NSURLConnection+Blocks.m */; };
+		C878734704CAF2D98131101B /* Pods-AbTrackingLib-AbTrackingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5B09E2D8095459898A604F /* Pods-AbTrackingLib-AbTrackingLib-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A8FDFE745F5C1788CEB221F /* PBXContainerItemProxy */ = {
+		8B998F62D99A35F62DFE6201 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3D48F3130AB8389B73FBFEB1 /* Project object */;
+			containerPortal = CBB23C70D200D92C38A88933 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ADC57EF870AFC4A59A21FB40;
-			remoteInfo = "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib";
-		};
-		9A2A60978BB6AD9F75D670B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D48F3130AB8389B73FBFEB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26B70D93CC34B788ABCA6080;
+			remoteGlobalIDString = 8165D3F33AFBB79B7A1E8592;
 			remoteInfo = "Pods-AbTrackingLib-AbTrackingLib";
+		};
+		B40674A2F854AE24FFDFD56E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB23C70D200D92C38A88933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B152FA152259B0F4816F32A;
+			remoteInfo = "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A1BF334BB5A37DAD6E3402C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0EB6412F3CFF1A8B176F39C6 /* libPods-AbTrackingLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbTrackingLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1430801B62BA62A598DA66E6 /* Pods-AbTrackingLib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbTrackingLib-acknowledgements.plist"; sourceTree = "<group>"; };
-		46963CDFE8161303081DE537 /* AbTrackingLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbTrackingLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FABE06DDBAFB062CC82C77F /* Pods-AbTrackingLib-AbTrackingLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbTrackingLib-AbTrackingLib-prefix.pch"; sourceTree = "<group>"; };
-		55CC08B82A904F1F37372469 /* Pods-AbTrackingLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbTrackingLib.debug.xcconfig"; sourceTree = "<group>"; };
-		5ADF404CA881419C70D22E01 /* Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig"; sourceTree = "<group>"; };
-		60CC9C498EEBD884897FA801 /* NSURLConnection+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+Blocks.m"; sourceTree = "<group>"; };
-		6600D7C48967BC70153C1998 /* Pods-AbTrackingLib-AbTrackingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbTrackingLib-AbTrackingLib-dummy.m"; sourceTree = "<group>"; };
-		6667934D9579E0FCB733A043 /* libPods-AbTrackingLib-AbTrackingLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbTrackingLib-AbTrackingLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87928AA25BF6C6FAD3C5C17D /* Pods-AbTrackingLib-AbTrackingLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbTrackingLib-AbTrackingLib.xcconfig"; sourceTree = "<group>"; };
-		AA7204C019DB6E359937FDB0 /* ABTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABTracker.m; sourceTree = "<group>"; };
-		AED154FF02839038CE70D038 /* ABTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABTracker.h; sourceTree = "<group>"; };
-		BB712070160B453F5F97CB77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C0ED7F5C34D3B80A60F0C848 /* Pods-AbTrackingLib-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbTrackingLib-environment.h"; sourceTree = "<group>"; };
-		C74645F45A6F6F388B65EADC /* NSURLConnection+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+Blocks.h"; sourceTree = "<group>"; };
-		CB5F53F189CA4F8F7B52F269 /* Pods-AbTrackingLib-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AbTrackingLib-resources.sh"; sourceTree = "<group>"; };
-		D2D0EDC431421976ACC3F4CF /* Pods-AbTrackingLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbTrackingLib.release.xcconfig"; sourceTree = "<group>"; };
-		E282D9ABEFDE716F0966C45B /* Pods-AbTrackingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbTrackingLib-dummy.m"; sourceTree = "<group>"; };
-		F15BDEA5A407FD26078935F1 /* Pods-AbTrackingLib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbTrackingLib-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F211C8FF8D7B8F589AB4DA02 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08A6729B7A1051344814B2A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		08EA98A3D4227571A1826262 /* Pods-AbTrackingLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbTrackingLib.debug.xcconfig"; sourceTree = "<group>"; };
+		0C9199DD17C7E3155A7CCC28 /* Pods-AbTrackingLib-AbTrackingLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbTrackingLib-AbTrackingLib-prefix.pch"; sourceTree = "<group>"; };
+		128E11BDF86E53790FFDE9F8 /* Pods-AbTrackingLib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbTrackingLib-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23035B362E7092BC30FE5867 /* Pods-AbTrackingLib-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AbTrackingLib-resources.sh"; sourceTree = "<group>"; };
+		36A4DA06041E8153930D50D8 /* ABTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABTracker.h; sourceTree = "<group>"; };
+		36E96AADBC701C8B3037E086 /* libPods-AbTrackingLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbTrackingLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FA270191C90C0A49B71C62 /* NSURLConnection+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+Blocks.h"; sourceTree = "<group>"; };
+		75509CF174599AE1ECBBBDD2 /* ABTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABTracker.m; sourceTree = "<group>"; };
+		7CA8CB33228FF11A3C1FE3C0 /* libPods-AbTrackingLib-AbTrackingLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbTrackingLib-AbTrackingLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F21EBC2FE683391F1F12D5 /* AbTrackingLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbTrackingLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC142BFF1F184E19919F539 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6F3AF2263C0E4FC85795B0E /* NSURLConnection+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+Blocks.m"; sourceTree = "<group>"; };
+		B8E7C70999B9C42B5A47B119 /* Pods-AbTrackingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbTrackingLib-dummy.m"; sourceTree = "<group>"; };
+		CC978525D071492317C0D3E7 /* Pods-AbTrackingLib-AbTrackingLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbTrackingLib-AbTrackingLib.xcconfig"; sourceTree = "<group>"; };
+		CF4F5525C21F28A5DCB1AA73 /* Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig"; sourceTree = "<group>"; };
+		CFEE633EF51E0EB7DA81A465 /* Pods-AbTrackingLib-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbTrackingLib-environment.h"; sourceTree = "<group>"; };
+		D42659D540974717556B1980 /* Pods-AbTrackingLib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbTrackingLib-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB5B09E2D8095459898A604F /* Pods-AbTrackingLib-AbTrackingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbTrackingLib-AbTrackingLib-dummy.m"; sourceTree = "<group>"; };
+		F05C83FAB91796E4A0980FFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE98D46FFEEB94A38163FA7F /* Pods-AbTrackingLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbTrackingLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1222C24E2638120C1B4232F5 /* Frameworks */ = {
+		2720FB850B4F3DC1B13734DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5917BB09EE4533BEF454F407 /* Foundation.framework in Frameworks */,
+				51C1F65448869BF55A76FF03 /* Foundation.framework in Frameworks */,
+				03797EA4F20DEBF4AE7C2DA2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2094A381D44775D2A1ABFE78 /* Frameworks */ = {
+		6601EE9FB4E4569CCF5C47A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70F028B888AE0697B72282C /* Foundation.framework in Frameworks */,
-				65135A24C6FB2C2CDF8435B0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9761C1BD1957468297395299 /* Frameworks */ = {
+		6AD369BE02008F88E139D31E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C6B8AF4A3E2C588BD722D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BDCE413DB4CE16E34CAC0D7 /* Targets Support Files */ = {
+		000B2B3151C8DF11F18FFE94 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5734F19678C7752427740077 /* Pods-AbTrackingLib */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1E47CF82197D215E988E8BAE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AED154FF02839038CE70D038 /* ABTracker.h */,
-				AA7204C019DB6E359937FDB0 /* ABTracker.m */,
-				96EBAE1F0C70D67D86B4EFD1 /* helper */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		212CF9D7F779FA3B71CFC4B0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E119A56021E30B8529756FC0 /* AbTrackingLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		323A2446F3288A8B3B7E6C52 = {
-			isa = PBXGroup;
-			children = (
-				F211C8FF8D7B8F589AB4DA02 /* Podfile */,
-				212CF9D7F779FA3B71CFC4B0 /* Development Pods */,
-				D0FD1E490F290174BAE3EE64 /* Frameworks */,
-				A81CBE0B865A7BA02C3CA103 /* Products */,
-				0BDCE413DB4CE16E34CAC0D7 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		5734F19678C7752427740077 /* Pods-AbTrackingLib */ = {
-			isa = PBXGroup;
-			children = (
-				F15BDEA5A407FD26078935F1 /* Pods-AbTrackingLib-acknowledgements.markdown */,
-				1430801B62BA62A598DA66E6 /* Pods-AbTrackingLib-acknowledgements.plist */,
-				E282D9ABEFDE716F0966C45B /* Pods-AbTrackingLib-dummy.m */,
-				C0ED7F5C34D3B80A60F0C848 /* Pods-AbTrackingLib-environment.h */,
-				CB5F53F189CA4F8F7B52F269 /* Pods-AbTrackingLib-resources.sh */,
-				55CC08B82A904F1F37372469 /* Pods-AbTrackingLib.debug.xcconfig */,
-				D2D0EDC431421976ACC3F4CF /* Pods-AbTrackingLib.release.xcconfig */,
-			);
-			name = "Pods-AbTrackingLib";
-			path = "Target Support Files/Pods-AbTrackingLib";
-			sourceTree = "<group>";
-		};
-		702C3EB424D73472AFF7B346 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				BB712070160B453F5F97CB77 /* Foundation.framework */,
-				0A1BF334BB5A37DAD6E3402C /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		96EBAE1F0C70D67D86B4EFD1 /* helper */ = {
-			isa = PBXGroup;
-			children = (
-				C74645F45A6F6F388B65EADC /* NSURLConnection+Blocks.h */,
-				60CC9C498EEBD884897FA801 /* NSURLConnection+Blocks.m */,
-			);
-			path = helper;
-			sourceTree = "<group>";
-		};
-		A81CBE0B865A7BA02C3CA103 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				46963CDFE8161303081DE537 /* AbTrackingLib.bundle */,
-				0EB6412F3CFF1A8B176F39C6 /* libPods-AbTrackingLib.a */,
-				6667934D9579E0FCB733A043 /* libPods-AbTrackingLib-AbTrackingLib.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D0FD1E490F290174BAE3EE64 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				702C3EB424D73472AFF7B346 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E119A56021E30B8529756FC0 /* AbTrackingLib */ = {
-			isa = PBXGroup;
-			children = (
-				F4AD3440DEB914BA9D15B730 /* Pod */,
-				FBA0086005FBC3CC8E4908E6 /* Support Files */,
-			);
-			name = AbTrackingLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F4AD3440DEB914BA9D15B730 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1E47CF82197D215E988E8BAE /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		FBA0086005FBC3CC8E4908E6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				87928AA25BF6C6FAD3C5C17D /* Pods-AbTrackingLib-AbTrackingLib.xcconfig */,
-				5ADF404CA881419C70D22E01 /* Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig */,
-				6600D7C48967BC70153C1998 /* Pods-AbTrackingLib-AbTrackingLib-dummy.m */,
-				4FABE06DDBAFB062CC82C77F /* Pods-AbTrackingLib-AbTrackingLib-prefix.pch */,
+				CC978525D071492317C0D3E7 /* Pods-AbTrackingLib-AbTrackingLib.xcconfig */,
+				CF4F5525C21F28A5DCB1AA73 /* Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig */,
+				EB5B09E2D8095459898A604F /* Pods-AbTrackingLib-AbTrackingLib-dummy.m */,
+				0C9199DD17C7E3155A7CCC28 /* Pods-AbTrackingLib-AbTrackingLib-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-AbTrackingLib-AbTrackingLib";
 			sourceTree = "<group>";
 		};
+		07F48AF8EB97E634A6816EE6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36A4DA06041E8153930D50D8 /* ABTracker.h */,
+				75509CF174599AE1ECBBBDD2 /* ABTracker.m */,
+				3A237F3EE38A2D2396C47959 /* helper */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1DE2286ED53CCD54F74005E8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F05C83FAB91796E4A0980FFE /* Foundation.framework */,
+				08A6729B7A1051344814B2A8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		28408A226805A10304A39277 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF18B4AB147DEE45ED078D5 /* Pods-AbTrackingLib */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A237F3EE38A2D2396C47959 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				61FA270191C90C0A49B71C62 /* NSURLConnection+Blocks.h */,
+				B6F3AF2263C0E4FC85795B0E /* NSURLConnection+Blocks.m */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		5538F5D96494B7F7FDC93A26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEC86C0D3B33B170F1669D /* AbTrackingLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B76423B4FD0B74314311545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE2286ED53CCD54F74005E8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E327B0DA4F170C7C1A1FF24 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				07F48AF8EB97E634A6816EE6 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BFDEC86C0D3B33B170F1669D /* AbTrackingLib */ = {
+			isa = PBXGroup;
+			children = (
+				9E327B0DA4F170C7C1A1FF24 /* Pod */,
+				000B2B3151C8DF11F18FFE94 /* Support Files */,
+			);
+			name = AbTrackingLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C8DB7E5331C94CF881178904 = {
+			isa = PBXGroup;
+			children = (
+				8EC142BFF1F184E19919F539 /* Podfile */,
+				5538F5D96494B7F7FDC93A26 /* Development Pods */,
+				9B76423B4FD0B74314311545 /* Frameworks */,
+				E71A7E6A48D7BE2254814571 /* Products */,
+				28408A226805A10304A39277 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF18B4AB147DEE45ED078D5 /* Pods-AbTrackingLib */ = {
+			isa = PBXGroup;
+			children = (
+				128E11BDF86E53790FFDE9F8 /* Pods-AbTrackingLib-acknowledgements.markdown */,
+				D42659D540974717556B1980 /* Pods-AbTrackingLib-acknowledgements.plist */,
+				B8E7C70999B9C42B5A47B119 /* Pods-AbTrackingLib-dummy.m */,
+				CFEE633EF51E0EB7DA81A465 /* Pods-AbTrackingLib-environment.h */,
+				23035B362E7092BC30FE5867 /* Pods-AbTrackingLib-resources.sh */,
+				08EA98A3D4227571A1826262 /* Pods-AbTrackingLib.debug.xcconfig */,
+				FE98D46FFEEB94A38163FA7F /* Pods-AbTrackingLib.release.xcconfig */,
+			);
+			name = "Pods-AbTrackingLib";
+			path = "Target Support Files/Pods-AbTrackingLib";
+			sourceTree = "<group>";
+		};
+		E71A7E6A48D7BE2254814571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F21EBC2FE683391F1F12D5 /* AbTrackingLib.bundle */,
+				36E96AADBC701C8B3037E086 /* libPods-AbTrackingLib.a */,
+				7CA8CB33228FF11A3C1FE3C0 /* libPods-AbTrackingLib-AbTrackingLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		66C2ED6540AC7B07A5A0400C /* Headers */ = {
+		5106FE1FD33D3338F7D858EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3851EC77F14E75799EC634 /* ABTracker.h in Headers */,
-				1FF13359D8713F2341C06366 /* NSURLConnection+Blocks.h in Headers */,
+				3F78A416EF67F4E7A2523CB6 /* ABTracker.h in Headers */,
+				68BE3A1B7866DBD61B3BF322 /* NSURLConnection+Blocks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		26B70D93CC34B788ABCA6080 /* Pods-AbTrackingLib-AbTrackingLib */ = {
+		32FB976409C136C3D5CCBED3 /* Pods-AbTrackingLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8CD0B1FAF19A998D0207634 /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib-AbTrackingLib" */;
+			buildConfigurationList = 7E40E6CC8840A9A73E65998E /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib" */;
 			buildPhases = (
-				FBDAAC9B8A588DFA3BD60EF7 /* Sources */,
-				2094A381D44775D2A1ABFE78 /* Frameworks */,
-				66C2ED6540AC7B07A5A0400C /* Headers */,
+				0015C5F47F722B570AFBD723 /* Sources */,
+				6AD369BE02008F88E139D31E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3A58F6390629BFC9A20FCDC /* PBXTargetDependency */,
+				354B173FC3E73ACB248EF647 /* PBXTargetDependency */,
+			);
+			name = "Pods-AbTrackingLib";
+			productName = "Pods-AbTrackingLib";
+			productReference = 36E96AADBC701C8B3037E086 /* libPods-AbTrackingLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8165D3F33AFBB79B7A1E8592 /* Pods-AbTrackingLib-AbTrackingLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C445C03AC3AF6E20831CE597 /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib-AbTrackingLib" */;
+			buildPhases = (
+				96295F38358044AF5CC50360 /* Sources */,
+				2720FB850B4F3DC1B13734DF /* Frameworks */,
+				5106FE1FD33D3338F7D858EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4177765E0103307E6379D884 /* PBXTargetDependency */,
 			);
 			name = "Pods-AbTrackingLib-AbTrackingLib";
 			productName = "Pods-AbTrackingLib-AbTrackingLib";
-			productReference = 6667934D9579E0FCB733A043 /* libPods-AbTrackingLib-AbTrackingLib.a */;
+			productReference = 7CA8CB33228FF11A3C1FE3C0 /* libPods-AbTrackingLib-AbTrackingLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ADC57EF870AFC4A59A21FB40 /* Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib */ = {
+		8B152FA152259B0F4816F32A /* Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA4F2D40D31860928A3C635B /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib" */;
+			buildConfigurationList = 934B7C35E2855996647307C2 /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib" */;
 			buildPhases = (
-				B3B94B5186E70A1CA7476150 /* Sources */,
-				9761C1BD1957468297395299 /* Frameworks */,
-				B7D9FCBA4FAE380CA7A251A7 /* Resources */,
+				00222575AD03BF0785192208 /* Sources */,
+				6601EE9FB4E4569CCF5C47A9 /* Frameworks */,
+				F1BE3E0F6380623262377616 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -252,55 +269,38 @@
 			);
 			name = "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib";
 			productName = "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib";
-			productReference = 46963CDFE8161303081DE537 /* AbTrackingLib.bundle */;
+			productReference = 81F21EBC2FE683391F1F12D5 /* AbTrackingLib.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		D8EDE20F266674DC348A5B36 /* Pods-AbTrackingLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 618EF3CDD6FDB1F1980A9A50 /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib" */;
-			buildPhases = (
-				A6ED9386C0B92AB0F7D388F6 /* Sources */,
-				1222C24E2638120C1B4232F5 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F5AE84257FDB79AAFCEEB441 /* PBXTargetDependency */,
-			);
-			name = "Pods-AbTrackingLib";
-			productName = "Pods-AbTrackingLib";
-			productReference = 0EB6412F3CFF1A8B176F39C6 /* libPods-AbTrackingLib.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3D48F3130AB8389B73FBFEB1 /* Project object */ = {
+		CBB23C70D200D92C38A88933 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = C67025FCEC4A0F662B2A6C54 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 35974F58E9D0A81EA13725B2 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 323A2446F3288A8B3B7E6C52;
-			productRefGroup = A81CBE0B865A7BA02C3CA103 /* Products */;
+			mainGroup = C8DB7E5331C94CF881178904;
+			productRefGroup = E71A7E6A48D7BE2254814571 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8EDE20F266674DC348A5B36 /* Pods-AbTrackingLib */,
-				26B70D93CC34B788ABCA6080 /* Pods-AbTrackingLib-AbTrackingLib */,
-				ADC57EF870AFC4A59A21FB40 /* Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib */,
+				32FB976409C136C3D5CCBED3 /* Pods-AbTrackingLib */,
+				8165D3F33AFBB79B7A1E8592 /* Pods-AbTrackingLib-AbTrackingLib */,
+				8B152FA152259B0F4816F32A /* Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B7D9FCBA4FAE380CA7A251A7 /* Resources */ = {
+		F1BE3E0F6380623262377616 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,52 +310,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6ED9386C0B92AB0F7D388F6 /* Sources */ = {
+		0015C5F47F722B570AFBD723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9528A858EED65A3B9DBEC8DD /* Pods-AbTrackingLib-dummy.m in Sources */,
+				64DDC488AA9798166D1B8DDD /* Pods-AbTrackingLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3B94B5186E70A1CA7476150 /* Sources */ = {
+		00222575AD03BF0785192208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBDAAC9B8A588DFA3BD60EF7 /* Sources */ = {
+		96295F38358044AF5CC50360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A688A262080B801EB432F9F4 /* ABTracker.m in Sources */,
-				AA2C1C2F8C72E926E935D994 /* NSURLConnection+Blocks.m in Sources */,
-				A7B5CAA2A64420831459F169 /* Pods-AbTrackingLib-AbTrackingLib-dummy.m in Sources */,
+				6A31D63FEA2839206A3C1346 /* ABTracker.m in Sources */,
+				BFE6807C93C81702B70A156D /* NSURLConnection+Blocks.m in Sources */,
+				C878734704CAF2D98131101B /* Pods-AbTrackingLib-AbTrackingLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B3A58F6390629BFC9A20FCDC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib";
-			target = ADC57EF870AFC4A59A21FB40 /* Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib */;
-			targetProxy = 3A8FDFE745F5C1788CEB221F /* PBXContainerItemProxy */;
-		};
-		F5AE84257FDB79AAFCEEB441 /* PBXTargetDependency */ = {
+		354B173FC3E73ACB248EF647 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AbTrackingLib-AbTrackingLib";
-			target = 26B70D93CC34B788ABCA6080 /* Pods-AbTrackingLib-AbTrackingLib */;
-			targetProxy = 9A2A60978BB6AD9F75D670B0 /* PBXContainerItemProxy */;
+			target = 8165D3F33AFBB79B7A1E8592 /* Pods-AbTrackingLib-AbTrackingLib */;
+			targetProxy = 8B998F62D99A35F62DFE6201 /* PBXContainerItemProxy */;
+		};
+		4177765E0103307E6379D884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib";
+			target = 8B152FA152259B0F4816F32A /* Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib */;
+			targetProxy = B40674A2F854AE24FFDFD56E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02BDDF2AE0F720D52687C840 /* Debug */ = {
+		02997E4B079CDC1CD8FB5EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ADF404CA881419C70D22E01 /* Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig */;
+			baseConfigurationReference = CF4F5525C21F28A5DCB1AA73 /* Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AbTrackingLib-AbTrackingLib/Pods-AbTrackingLib-AbTrackingLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1339C257CC9153448B65B2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4F5525C21F28A5DCB1AA73 /* Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-AbTrackingLib-AbTrackingLib/Pods-AbTrackingLib-AbTrackingLib-prefix.pch";
@@ -369,7 +385,7 @@
 			};
 			name = Debug;
 		};
-		5257F95E142567A461648A6F /* Debug */ = {
+		1F3DA1952CE49D5B8B58A76D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,9 +424,9 @@
 			};
 			name = Debug;
 		};
-		6579C55725CDA5C07D915F23 /* Debug */ = {
+		33D808DC3A069A9CE42BB36F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55CC08B82A904F1F37372469 /* Pods-AbTrackingLib.debug.xcconfig */;
+			baseConfigurationReference = 08EA98A3D4227571A1826262 /* Pods-AbTrackingLib.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -424,7 +440,7 @@
 			};
 			name = Debug;
 		};
-		7B42D724A36489F4223ED54A /* Release */ = {
+		4E2B6E039AC56D42DEEBD6AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -433,25 +449,9 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		A411C88E1FF6970C128BFC54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ADF404CA881419C70D22E01 /* Pods-AbTrackingLib-AbTrackingLib-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AbTrackingLib-AbTrackingLib/Pods-AbTrackingLib-AbTrackingLib-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		BB91F7891C33FAE23565D01D /* Release */ = {
+		651A79E1EDD8CE3D4F0DFC3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -485,9 +485,20 @@
 			};
 			name = Release;
 		};
-		BC467B8F568F9EB298695922 /* Release */ = {
+		BFC0E98D58844EFAF4809656 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2D0EDC431421976ACC3F4CF /* Pods-AbTrackingLib.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AbTrackingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D03B126D902AD5E78AA9D5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE98D46FFEEB94A38163FA7F /* Pods-AbTrackingLib.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -501,57 +512,46 @@
 			};
 			name = Release;
 		};
-		CA50CD57B651B45B524DEE6A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = AbTrackingLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		618EF3CDD6FDB1F1980A9A50 /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib" */ = {
+		35974F58E9D0A81EA13725B2 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6579C55725CDA5C07D915F23 /* Debug */,
-				BC467B8F568F9EB298695922 /* Release */,
+				1F3DA1952CE49D5B8B58A76D /* Debug */,
+				651A79E1EDD8CE3D4F0DFC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8CD0B1FAF19A998D0207634 /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib-AbTrackingLib" */ = {
+		7E40E6CC8840A9A73E65998E /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02BDDF2AE0F720D52687C840 /* Debug */,
-				A411C88E1FF6970C128BFC54 /* Release */,
+				33D808DC3A069A9CE42BB36F /* Debug */,
+				D03B126D902AD5E78AA9D5D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C67025FCEC4A0F662B2A6C54 /* Build configuration list for PBXProject "Pods" */ = {
+		934B7C35E2855996647307C2 /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5257F95E142567A461648A6F /* Debug */,
-				BB91F7891C33FAE23565D01D /* Release */,
+				4E2B6E039AC56D42DEEBD6AD /* Debug */,
+				BFC0E98D58844EFAF4809656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA4F2D40D31860928A3C635B /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib-AbTrackingLib-AbTrackingLib" */ = {
+		C445C03AC3AF6E20831CE597 /* Build configuration list for PBXNativeTarget "Pods-AbTrackingLib-AbTrackingLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA50CD57B651B45B524DEE6A /* Debug */,
-				7B42D724A36489F4223ED54A /* Release */,
+				1339C257CC9153448B65B2D2 /* Debug */,
+				02997E4B079CDC1CD8FB5EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3D48F3130AB8389B73FBFEB1 /* Project object */;
+	rootObject = CBB23C70D200D92C38A88933 /* Project object */;
 }

@@ -29,9 +29,7 @@
 
 - (void)testTrack
 {
-    NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
-    NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
-    [ABTracker trackOpenEventVersion:appVersion andBundle:bundleId];
+    [ABTracker trackOpenEvent];
 }
 
 @end

@@ -71,11 +71,7 @@
     [NSURLConnection connectionWithRequest:configRequest
                               onCompletion:^(NSData *data, NSInteger statusCode)
      {
-         if(statusCode == 200) {
-             NSLog(@"POST Event Success");
-         } else {
-             NSLog(@"Error %ld", (long)statusCode);
-         }
+         NSLog(@"POST Event http status %ld", (long)statusCode);
      }
                                     onFail:^(NSError *error, NSInteger statusCode)
      {

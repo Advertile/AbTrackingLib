@@ -28,6 +28,10 @@ and add the following code in didFinishLaunchingWithOptions:
 ```
 [ABTracker trackOpenEvent];
 ```
+or add the following code in didFinishLaunchingWithOptions if you are working in a staging version:
+```
+[ABTracker trackOpenEventStaging];
+```
 
 To track your event to abtrckr.com
 

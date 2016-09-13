@@ -11,5 +11,6 @@
 @interface ABTracker : NSObject
 
 +(void) trackOpenEvent;
++(void) trackOpenEventStaging;
 
 @end

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AbTrackingLib"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "Library to track the open event to abtrckr.com"
   s.description      = <<-DESC
                        The library helps other projects to track the open app event to abtrckr.com

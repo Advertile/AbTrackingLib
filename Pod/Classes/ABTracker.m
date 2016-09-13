@@ -12,11 +12,23 @@
 #import <UIKit/UIKit.h>
 
 #define kBaseUrl @"http://www.abtrckr.com/"
+#define kBaseUrlStaging @"https://test.abtrckr.com/"
 
 @implementation ABTracker
 
 + (void) trackOpenEvent
 {
+    [ABTracker trackEventWithUrl:kBaseUrl];
+}
+
++ (void)trackOpenEventStaging
+{
+    [ABTracker trackEventWithUrl:kBaseUrlStaging];
+}
+
+
+
++(void)trackEventWithUrl:(NSString*)baseUrl{
     NSMutableDictionary *event = [[NSMutableDictionary alloc] init];
     [event setObject:@"open" forKey:@"name"];
     NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
@@ -53,11 +65,11 @@
         [event setObject:deviceName forKey:@"device_name"];
     }
     [event setObject:@"events" forKey:@"type"];
-   
+    
     NSDictionary *events = [[NSDictionary alloc] initWithObjectsAndKeys:event, @"data", nil];
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:events options:kNilOptions error:nil];
     
-    NSString *urlString = [kBaseUrl stringByAppendingPathComponent:@"/api/events"];
+    NSString *urlString = [baseUrl stringByAppendingPathComponent:@"/api/events"];
     
     NSURL* url = [NSURL URLWithString:urlString];
     NSMutableURLRequest *configRequest = [NSMutableURLRequest requestWithURL:url
@@ -77,6 +89,7 @@
      {
          NSLog(@"POST Event Error");
      }];
+
 }
 
 @end

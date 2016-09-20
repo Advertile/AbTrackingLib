@@ -64,7 +64,13 @@
     if(deviceName) {
         [event setObject:deviceName forKey:@"device_name"];
     }
+    NSString * swrveId = [[NSUUID UUID] UUIDString];
+    if(swrveId) {
+        [event setObject:swrveId forKey:@"swrve_id"];
+    }
+    
     [event setObject:@"events" forKey:@"type"];
+    
     
     NSDictionary *events = [[NSDictionary alloc] initWithObjectsAndKeys:event, @"data", nil];
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:events options:kNilOptions error:nil];

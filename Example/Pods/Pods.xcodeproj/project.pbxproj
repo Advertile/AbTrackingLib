@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		032418796BCE76FA3F4E384BCB0819D2 /* ABTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = BC739E0D21AA950562A69312D38595B9 /* ABTracker.m */; };
 		23E34C61938703B080D36885625C199C /* NSURLConnection+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2586836183DBC638480DE9ACBCFCE0 /* NSURLConnection+Blocks.m */; };
+		4943F4841DBA01B400611591 /* KeychainAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 4943F4821DBA01B400611591 /* KeychainAccess.h */; };
+		4943F4851DBA01B400611591 /* KeychainAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 4943F4831DBA01B400611591 /* KeychainAccess.m */; };
 		640252BB84FB70C241019627BE4ED76B /* Pods-AbTrackingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A38858BB4E9D212B458CB371BCFAC381 /* Pods-AbTrackingLib-dummy.m */; };
 		83207012B2CB60D98728053A372AEF92 /* ABTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A79BFFB4F125F87EEA6B16B108B18D /* ABTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		944F971A7CDCDB88541202B706F14C18 /* AbTrackingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AE16F2E61364A55A207F6D128EB153 /* AbTrackingLib-dummy.m */; };
@@ -42,6 +44,8 @@
 		2A916351E8F34016A600A25648127B17 /* Pods-AbTrackingLib-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AbTrackingLib-frameworks.sh"; sourceTree = "<group>"; };
 		45CC7C4C1A51AE00806FB68D3B03DDBE /* libPods-AbTrackingLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbTrackingLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AE16F2E61364A55A207F6D128EB153 /* AbTrackingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AbTrackingLib-dummy.m"; sourceTree = "<group>"; };
+		4943F4821DBA01B400611591 /* KeychainAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainAccess.h; sourceTree = "<group>"; };
+		4943F4831DBA01B400611591 /* KeychainAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainAccess.m; sourceTree = "<group>"; };
 		62BE722A09CBFD3A21A30379B40B52B0 /* ResourceBundle-AbTrackingLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AbTrackingLib-Info.plist"; sourceTree = "<group>"; };
 		7D2586836183DBC638480DE9ACBCFCE0 /* NSURLConnection+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+Blocks.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -137,6 +141,8 @@
 		86D35AB616C07F08E3758EFB15BA8984 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4943F4821DBA01B400611591 /* KeychainAccess.h */,
+				4943F4831DBA01B400611591 /* KeychainAccess.m */,
 				C2A79BFFB4F125F87EEA6B16B108B18D /* ABTracker.h */,
 				BC739E0D21AA950562A69312D38595B9 /* ABTracker.m */,
 				ABBFCE1F5FEC2356583DCA63544CC28D /* helper */,
@@ -214,6 +220,7 @@
 			files = (
 				83207012B2CB60D98728053A372AEF92 /* ABTracker.h in Headers */,
 				AE9A580D827BF8CAD55DE6D360D83226 /* NSURLConnection+Blocks.h in Headers */,
+				4943F4841DBA01B400611591 /* KeychainAccess.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4943F4851DBA01B400611591 /* KeychainAccess.m in Sources */,
 				032418796BCE76FA3F4E384BCB0819D2 /* ABTracker.m in Sources */,
 				944F971A7CDCDB88541202B706F14C18 /* AbTrackingLib-dummy.m in Sources */,
 				23E34C61938703B080D36885625C199C /* NSURLConnection+Blocks.m in Sources */,

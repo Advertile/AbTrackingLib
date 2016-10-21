@@ -10,6 +10,7 @@
 #import <AdSupport/AdSupport.h>
 #import "NSURLConnection+Blocks.h"
 #import <UIKit/UIKit.h>
+#import "KeychainAccess.h"
 
 #define kBaseUrl @"http://www.abtrckr.com/"
 #define kBaseUrlStaging @"https://test.abtrckr.com/"
@@ -64,10 +65,17 @@
     if(deviceName) {
         [event setObject:deviceName forKey:@"device_name"];
     }
-    NSString * swrveId = [[NSUUID UUID] UUIDString];
+    NSString * swrveId = [[NSUserDefaults standardUserDefaults]objectForKey:@"swrve_user_id"];
     if(swrveId) {
         [event setObject:swrveId forKey:@"swrve_id"];
     }
+
+    NSString * authId = [KeychainAccess valueForKeychainKey:kABUserAuthToken service:kABUserDataService];
+    if(authId){
+        [event setObject:authId forKey:@"aid"];
+    }
+
+    
     
     [event setObject:@"events" forKey:@"type"];
     
@@ -97,5 +105,6 @@
      }];
 
 }
+
 
 @end

@@ -151,6 +151,8 @@
 				ORGANIZATIONNAME = "Laura Orán";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 978EDFZWZ3;
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -331,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9698B898DE46F3FF51B91090 /* Pods-AbTrackingLib.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 978EDFZWZ3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -353,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C05EA1A2C21B42EF4D8A6CF /* Pods-AbTrackingLib.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 978EDFZWZ3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

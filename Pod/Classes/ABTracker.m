@@ -12,7 +12,7 @@
 #import <UIKit/UIKit.h>
 #import "KeychainAccess.h"
 
-#define kBaseUrl @"http://www.abtrckr.com/"
+#define kBaseUrl @"https://www.abtrckr.com/"
 #define kBaseUrlStaging @"https://test.abtrckr.com/"
 
 @implementation ABTracker

@@ -12,7 +12,7 @@
 #import <UIKit/UIKit.h>
 #import "KeychainAccess.h"
 
-#define kBaseUrl @"https://www.abtrckr.com/"
+#define kBaseUrl @"http://www.abtrckr.com/"
 #define kBaseUrlStaging @"https://test.abtrckr.com/"
 
 @implementation ABTracker
@@ -84,7 +84,9 @@
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:events options:kNilOptions error:nil];
     
     NSString *urlString = [baseUrl stringByAppendingPathComponent:@"/api/events"];
-    
+    if(![[NSUserDefaults standardUserDefaults]boolForKey:@"is_first_time_abtracking"]){
+        urlString = [baseUrl stringByAppendingPathComponent:@"/api/startup_config"];
+    }
     NSURL* url = [NSURL URLWithString:urlString];
     NSMutableURLRequest *configRequest = [NSMutableURLRequest requestWithURL:url
                                                                  cachePolicy:NSURLRequestReloadIgnoringCacheData
@@ -98,6 +100,19 @@
                               onCompletion:^(NSData *data, NSInteger statusCode)
      {
          NSLog(@"POST Event http status %ld", (long)statusCode);
+         if(![[NSUserDefaults standardUserDefaults]boolForKey:@"is_first_time_abtracking"]){
+             NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+             NSLog(@"%@", jsonDic);
+             NSString * redirectUrl = jsonDic[@"config"][@"start_page"];
+             if(redirectUrl){
+                 [[NSUserDefaults standardUserDefaults]setObject:redirectUrl forKey:@"redirect_url_abtracking"];
+                 if([[UIApplication sharedApplication].delegate respondsToSelector:@selector(openRedirectUrlAbtracking)]){
+                     [[[UIApplication sharedApplication] delegate] performSelector:@selector(openRedirectUrlAbtracking) withObject:nil];
+                 }
+             }
+             [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"is_first_time_abtracking"];
+             [[NSUserDefaults standardUserDefaults]synchronize];
+         }
      }
                                     onFail:^(NSError *error, NSInteger statusCode)
      {
